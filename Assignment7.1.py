@@ -1,0 +1,7 @@
+# Use words.txt as the file name
+fname = input("Enter file name: ")
+fh = open(fname)
+fl = fh.read()
+fq = fl.upper()
+fa = fq.rstrip()
+print(fa)
